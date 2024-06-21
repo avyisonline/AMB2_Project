@@ -21,4 +21,14 @@ public class loadScene : MonoBehaviour
     {
         SceneManager.LoadScene("Level3");
     }
+
+    public void loadMenu()
+    {
+        SceneManager.LoadScene("Menu");
+    }
+
+    public void loadWin()
+    {
+        SceneManager.LoadScene("YouWin");
+    }
 }
